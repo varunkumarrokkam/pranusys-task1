@@ -13,7 +13,7 @@ const  fToC = function (fahrenheit) {
     
     const fTemp = fahrenheit;
     const fToCel =(fTemp - 32 ) * (5/9);
-    const msg = `${fTemp}\xB0F is ${fToCel} \ xB0C .`;
+    const msg = `${fTemp}\xB0F is ${fToCel} \xB0C .`;
     return msg; 
 }
 
